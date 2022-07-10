@@ -2,11 +2,19 @@
 
 Describe: numIdentify
 
-Test: "Will identify if a number input by user contains a 1, 2, or 3"
-Code:
-num = "409 874 200 673 881"
-numIdentify(num);
+Test: "Will identify if input number contains a 1"
+
+Code: numInput= 19978
+numIdentify(numInput);
+
 
 Expected output: true
+
+Test: Will replace number with "beep" if number contains "1"
+
+code: numInput= 19978
+numIdentify(numInput);
+
+Expected outcome: "beep"
 
 
