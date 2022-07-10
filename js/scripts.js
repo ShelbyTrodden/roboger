@@ -27,7 +27,7 @@ form.addEventListener("submit", function(event) {
             }
         return numArray.join(", ")
     }
-    return document.getElementById("beep-boop").innerText = result
+    document.getElementById("beep-boop").innerText = result
 
 });
     

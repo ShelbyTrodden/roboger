@@ -34,34 +34,34 @@ Copyright (c) [2022] [Shelby Trodden]
 
 # Tests 
 
-Describe: numIdentify
+Describe: numIdentify  
 
-Test: Will identify if input number contains a 1
+Test: Will identify if input number contains a 1  
 
 Code: numInput= 19978
-numIdentify(numInput);
+numIdentify(numInput);   
 
 
-Expected output: true
+Expected output: true   
 
-Test: Will replace number with "beep" if number contains "1"
+Test: Will replace number with "beep" if number contains "1"    
 
 code: numInput= 1
-numIdentify(numInput);
+numIdentify(numInput);  
 
-Expected outcome: "beep"
+Expected outcome: "beep"  
 
-Test: Will replace number with "Won't you be my neighbor" if number contains "3"
+Test: Will replace number with "Won't you be my neighbor" if number contains "3"  
 
 code: numInput= 13
-numIdentify(numInput);
+numIdentify(numInput);  
 
-Expected outcome: ""beep!","won't you be my neighbor?","beep!", "beep!", "beep!", "wont you be my neighbor?""
+Expected outcome: ""beep!","won't you be my neighbor?","beep!", "beep!", "beep!", "wont you be my neighbor?""  
 
-Test: will replace number with "Boop!" if number contains "2"
+Test: will replace number with "Boop!" if number contains "2"  
 
 code: numInput= 12
-numIdentify(numInput);
+numIdentify(numInput);  
 
-Expected Outcome: "beep!", "boop!", "wont you be my neighbor?","beep!", "beep!", "boop!"
+Expected Outcome: "beep!", "boop!", "wont you be my neighbor?","beep!", "beep!", "boop!"  
 
