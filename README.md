@@ -1,3 +1,37 @@
+# Mr. Roboger's Neighborhood
+
+#### By _**Shelby Trodden**_
+
+#### _Language Translator_
+
+##### page can be viewed at ShelbyTrodden.github.io/program-language
+
+## Technologies Used
+
+* HTML
+* CSS
+* Javascript
+
+
+## Description
+_This is a language translator that takes a number from the user and returns a list of values from 0 to the user's inputted number with a new sentence._
+
+## Setup/Installation Requirements
+* Clone this repository to your desktop
+* Navigate to the top level of the directory
+* Open roboger/index.html in your browser
+
+## Known Bugs
+* No known issues
+
+## License
+
+If you run into any bugs, please contact me at shelby.trodden@gmail.com
+
+[MIT License](/LICENSE.txt)
+
+Copyright (c) [2022] [Shelby Trodden]
+
 #Tests#
 
 Describe: numIdentify
@@ -29,5 +63,5 @@ Test: will replace number with "Boop!" if number contains "2"
 code: numInput= 12
 numIdentify(numInput);
 
-Expected Outcome: "beep!", "boop!", "wont you be my neightbor?","beep!", "beep!", "boop!"
+Expected Outcome: "beep!", "boop!", "wont you be my neighbor?","beep!", "beep!", "boop!"
 
