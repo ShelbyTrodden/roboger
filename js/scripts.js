@@ -16,7 +16,7 @@ form.addEventListener("submit", function(event) {
         for (let i = 0; i <= numInput; i++){
             let inputString = i.toString().split("");
             if (inputString.includes("1")) {
-              return alert("beepity");
+              numArray.push("Beep");
             }
     }
 }

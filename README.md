@@ -12,7 +12,7 @@ Expected output: true
 
 Test: Will replace number with "beep" if number contains "1"
 
-code: numInput= 19978
+code: numInput= 1
 numIdentify(numInput);
 
 Expected outcome: "beep"
