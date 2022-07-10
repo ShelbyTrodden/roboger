@@ -11,7 +11,7 @@ form.addEventListener("submit", function(event) {
     console.log("were going shopping");
     function numIdentify(numInput) {
         if (numInput.includes("1", "2", "3")); {
-            return true;
+            return console.log("you cant sit with us");
     }
     };  
 });
