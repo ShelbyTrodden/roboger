@@ -15,8 +15,10 @@ form.addEventListener("submit", function(event) {
         numArray=[];
         for (let i = 0; i <= numInput; i++){
             let inputString = i.toString().split("");
-            if (inputString.includes("1")) {
-              numArray.push("Beep");
+            if (inputString.includes("3")) {
+              numArray.push("Won't you be my neighbor?");
+            } else if (inputString.includes("1")) {
+                numArray.push("Beep!")
             }
     }
 }

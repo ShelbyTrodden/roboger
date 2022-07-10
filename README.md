@@ -2,7 +2,7 @@
 
 Describe: numIdentify
 
-Test: "Will identify if input number contains a 1"
+Test: Will identify if input number contains a 1
 
 Code: numInput= 19978
 numIdentify(numInput);
@@ -16,5 +16,13 @@ code: numInput= 1
 numIdentify(numInput);
 
 Expected outcome: "beep"
+
+Test: Will replace number with "Won't you be my neighbor" if number contains "3"
+
+code: numInput= 13
+numIdentify(numInput);
+
+Expected outcome: ""beep!","won't you be my neighbor?","beep!", "beep!", "beep!", "wont you be my neighbor?""
+
 
 
