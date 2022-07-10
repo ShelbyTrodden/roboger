@@ -17,16 +17,17 @@ form.addEventListener("submit", function(event) {
             let inputString = i.toString().split("");
             if (inputString.includes("3")) {
               numArray.push("Won't you be my neighbor?");
-            } else if (inputString.includes("1")) {
+            } else if (inputString.includes("2")) {
+                numArray.push("Boop!")
+            } else if (inputString.includes("1")){
                 numArray.push("Beep!")
             }
+            }
     }
-}
+});
     
 resetBtn.addEventListener("click", function() {
     document.getElementById("roboger").reset();
-    console.log("goodbye")
     
-});
 });
 });

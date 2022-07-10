@@ -24,5 +24,10 @@ numIdentify(numInput);
 
 Expected outcome: ""beep!","won't you be my neighbor?","beep!", "beep!", "beep!", "wont you be my neighbor?""
 
+Test: will replace number with "Boop!" if number contains "2"
 
+code: numInput= 12
+numIdentify(numInput);
+
+Expected Outcome: "beep!", "boop!", "wont you be my neightbor?","beep!", "beep!", "boop!"
 
