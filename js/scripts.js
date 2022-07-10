@@ -1,4 +1,4 @@
-/ User Interface Logic
+// User Interface Logic
 window.addEventListener('load', function () {
     const form = document.getElementById('roboger');
     const resetBtn = document.getElementById('reset');
@@ -27,7 +27,7 @@ form.addEventListener('submit', function (event) {
     }
         return numArray.join(', ');
     }
-    return (document.getElementById('beep-boop').innerText = result);
+    (document.getElementById('beep-boop').innerText = result);
 });
 
 resetBtn.addEventListener('click', function () {
