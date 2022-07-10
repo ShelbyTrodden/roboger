@@ -14,7 +14,7 @@
 
 
 ## Description
-_This is a language translator that takes a number from the user and returns a list of values from 0 to the user's inputted number with a new sentence._
+_This is a language translator that takes a number from the user and returns a translated sentence, replacing specific numbers in the array, with specific words or phrases._
 
 ## Setup/Installation Requirements
 * Clone this repository to your desktop
