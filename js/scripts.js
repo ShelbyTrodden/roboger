@@ -21,9 +21,14 @@ form.addEventListener("submit", function(event) {
                 numArray.push("Boop!")
             } else if (inputString.includes("1")){
                 numArray.push("Beep!")
+            } else {
+                numArray.push(inputString);
             }
             }
+        return numArray.join(", ")
     }
+    return document.getElementById("beep-boop").innerText = result
+
 });
     
 resetBtn.addEventListener("click", function() {
