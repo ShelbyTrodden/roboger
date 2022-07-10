@@ -33,6 +33,7 @@ form.addEventListener("submit", function(event) {
     
 resetBtn.addEventListener("click", function() {
     document.getElementById("roboger").reset();
+    document.getElementById("beep-boop").style.display = "none";
     
 });
 });
