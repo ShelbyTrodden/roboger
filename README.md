@@ -4,7 +4,7 @@
 
 #### _Language Translator_
 
-##### page can be viewed at ShelbyTrodden.github.io/roboger
+##### page can be viewed at https://ShelbyTrodden.github.io/roboger
 
 ## Technologies Used
 
