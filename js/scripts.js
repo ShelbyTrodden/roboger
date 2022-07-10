@@ -7,23 +7,14 @@ window.addEventListener("load", function(event) {
 form.addEventListener("submit", function(event) {
     event.preventDefault();
     
-    console.log("do you suck yet?")
     const numInput = parseInt(document.getElementById("number").value);
-    console.log("maybe you suck now?")
-    function numIdentify(numInput) {
-        let numArray=[];
-            for (let i=0; i<numInput.length; i++){
-                let newArray=i.toString();
-                if (newArray.includes("1")) {
-                    console.log("bet you suck here")
-                }
-            
-    }
-    }; 
     
+})
+    
+console.log("hello")
 resetBtn.addEventListener("click", function() {
     document.getElementById("roboger").reset();
+    console.log("goodbye")
     
-});
 });
 });
