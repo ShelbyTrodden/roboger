@@ -1,19 +1,7 @@
-// User Interface Logic
-window.addEventListener('load', function () {
-    const form = document.getElementById('roboger');
-    const resetBtn = document.getElementById('reset');
-    const submitButton = document.getElementsByClassName('btn')[0];
-
-form.addEventListener('submit', function (event) {
-    event.preventDefault();
-
-    const numInput = parseInt(document.getElementById('number').value);
-    const result = numIdentify(numInput);
-    submitButton.setAttribute('disabled', 'disabled');
-
-    function numIdentify(numInput) {
-        numArray = [];
-        for (let i = 0; i <= numInput; i++) {
+//Business Logic
+function numIdentify(numInput) {
+    numArray = [];
+    for (let i = 0; i <= numInput; i++) {
         let inputString = i.toString().split('');
         if (inputString.includes('3')) {
             numArray.push("Won't you be my neighbor?");
@@ -25,14 +13,25 @@ form.addEventListener('submit', function (event) {
             numArray.push(inputString);
         }
     }
-        return numArray.join(', ');
-    }
-    (document.getElementById('beep-boop').innerText = result);
-});
+    return numArray.join(', ');
+}
 
-resetBtn.addEventListener('click', function () {
-    document.getElementById('roboger').reset();
-    submitButton.removeAttribute('disabled');
-    document.getElementById('beep-boop').innerText = '';
-});
+// User Interface Logic
+window.addEventListener('load', function () {
+    const form = document.getElementById('roboger');
+    const resetBtn = document.getElementById('reset');
+    const submitButton = document.getElementsByClassName('btn')[0];
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        const numInput = parseInt(document.getElementById('number').value);
+        const result = numIdentify(numInput);
+        submitButton.setAttribute('disabled', 'disabled');
+        (document.getElementById('beep-boop').innerText = result);
+    });
+    resetBtn.addEventListener('click', function () {
+        document.getElementById('roboger').reset();
+        submitButton.removeAttribute('disabled');
+        document.getElementById('beep-boop').innerText = '';
+    });
 });
